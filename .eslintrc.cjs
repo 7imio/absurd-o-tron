@@ -22,9 +22,12 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
-    'prettier/prettier': ['warn', { singleQuote: true, trailingComma: 'all', arrowParens: 'avoid' }],
-    'react/react-in-jsx-scope': 'off', 
-    'react/prop-types': 'off', 
+    'prettier/prettier': [
+      'warn',
+      { singleQuote: true, trailingComma: 'all', arrowParens: 'avoid' },
+    ],
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
     'import/order': [
       'warn',
       {
