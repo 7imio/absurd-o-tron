@@ -5,6 +5,5 @@ const Footer:React.FC = () => {
             <p>Source code available on <a href="https://github.com/7imio/absurd-o-tron">GitHub</a></p>
         </footer>
     )  
-
 }
 export default Footer;

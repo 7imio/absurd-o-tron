@@ -5,7 +5,7 @@ const NameDisplay: React.FC<NameDisplayProps> = ({ name }) => {
     return (
         <div>
             <h2>Generated Name:</h2>
-            <p className='displayed-name'>{name}</p>
+            {name ? <p className='displayed-name'>{name}</p> : <p className='displayed-name'>Click the button to generate insanity !</p>}
         </div>
     );
 }
