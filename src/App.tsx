@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './App.css'
 import GenerateName from './Components/GenerateName'
 import NameDisplay from './Components/NameDisplay'
+import './index.css'
 
 function App() {
 
