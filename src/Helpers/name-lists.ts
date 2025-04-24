@@ -1,0 +1,38 @@
+export const prefixes = [
+    'Slor', 'Glib', 'Snar', 'Twat', 'Flarn', 'Mung', 'Crib', 'Plob', 'Wank', 'Brort',
+    'Drib', 'Zlurp', 'Klob', 'Frunt', 'Vrogg', 'Sploo', 'Trank', 'Blib', 'Grork', 'Skarn',
+    'Blarn', 'Snook', 'Wharg', 'Drot', 'Nerp', 'Twib', 'Gloob', 'Fnar', 'Plib', 'Snarg',
+    'Tork', 'Chib', 'Zorp', 'Dront', 'Vlib', 'Skrogg', 'Throb', 'Wrogg', 'Kroot', 'Zlarn',
+    'Blurg', 'Sploof', 'Wrint', 'Trubb', 'Krank', 'Fnoot', 'Clarn', 'Dwarp', 'Zlunt', 'Grobb',
+    'Grint', 'Frab', 'Bloop', 'Snurk', 'Wlork', 'Skrunt', 'Flab', 'Trork', 'Prong', 'Zibber',
+    'Glarn', 'Snizz', 'Trogg', 'Mork', 'Whib', 'Crarn', 'Spint', 'Flurm', 'Nork', 'Twerp',
+    'Wibber', 'Skank', 'Dloop', 'Slib', 'Zrap', 'Tnoob', 'Glorp', 'Wrack', 'Frimp', 'Brulp',
+    'Skwib', 'Shnarf', 'Ploop', 'Dribble', 'Znoot', 'Skribble', 'Frizz', 'Snib', 'Krunt',
+    'Yark', 'Grimp', 'Blizz', 'Vnoot', 'Prib', 'Slonk', 'Whizz', 'Flabn', 'Troonk', 'Mlibb'
+  ];
+  
+  export const middles = [
+    'ibber', 'oodle', 'arth', 'onkle', 'uffle', 'ortch', 'engle', 'asst', 'larp', 'ickle',
+    'imble', 'oink', 'uzzle', 'rimp', 'abbin', 'ergle', 'womp', 'arkle', 'ankle', 'ipple',
+    'opple', 'umpf', 'urdle', 'ishle', 'ampt', 'implo', 'erg', 'abno', 'iggle', 'orkin',
+    'orgle', 'unkin', 'eeble', 'ompf', 'asson', 'angin', 'rindle', 'uffin', 'ongle', 'osko',
+    'amblo', 'ertch', 'indle', 'eggle', 'orkle', 'armp', 'ukko', 'erp', 'imsh', 'utlo',
+    'oobo', 'implu', 'abgro', 'ulko', 'ancho', 'amsho', 'enko', 'orrin', 'iggro', 'urnko',
+    'osst', 'orlin', 'obgro', 'ollib', 'ashno', 'irple', 'aggro', 'uttr', 'aggol', 'eeff',
+    'uldr', 'unsh', 'ibblo', 'opsh', 'inkro', 'abblin', 'orblo', 'orrib', 'errin', 'azko'
+  ];
+
+  export const suffixes = [
+    'bast', 'flap', 'wick', 'donk', 'fart', 'plap', 'snoot', 'fast', 'dribble', 'bork',
+    'wart', 'poot', 'drunk', 'snatch', 'crump', 'lump', 'gratch', 'slump', 'pork', 'wank',
+    'smirk', 'burp', 'grunt', 'nork', 'flomp', 'groan', 'clart', 'throb', 'chort', 'wibble',
+    'gromp', 'gribble', 'plurt', 'wretch', 'niblet', 'krong', 'twist', 'glimp', 'scrump',
+    'frunt', 'gorp', 'klump', 'blurt', 'gruft', 'snubb', 'wub', 'splork', 'thwap', 'droob',
+    'skrub', 'dunk', 'twonk', 'munt', 'slib', 'klib', 'guff', 'zlap', 'slomp', 'knob',
+    'splint', 'drib', 'thwack', 'gloob', 'tramp', 'blobb', 'wretch', 'plick', 'chuzz',
+    'squorp', 'slort', 'blart', 'twib', 'gruff', 'splot', 'plick', 'zoot', 'krimp', 'jiblet',
+    'gruntle', 'zlorp', 'boink', 'tromp', 'clomp', 'dribber', 'twink', 'scrunk', 'wrort',
+    'splaff', 'plickle', 'frangle', 'wrumph', 'snizzle', 'nipple', 'kludge', 'blamph', 'pumple', 'grumpt'
+  ];
+  
+export const titles = ['Dr.', 'Sir', 'Captain', 'Grand Admiral', 'Baron', 'Count'];
