@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
+body::before {
+  content: "";
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  width: 500%;
+  height: 500%;
+  background-image: url('/background.png');
+  transform: rotate(-7deg);
+  z-index: -1;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(135deg, #1b1b2f, #3a3a60);
-  background-image: url('/background.png');
+  /* background: linear-gradient(135deg, rgba(27, 27, 47, 1), rgba(58, 58, 96, 1)); */
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +59,7 @@ button:hover {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background: rgba(27, 27, 47, 0.8);
+  background: rgba(46, 46, 78, 0.8);
   backdrop-filter: blur(10px);
   border-radius: 24px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
@@ -101,7 +113,7 @@ footer {
   position: absolute;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   text-align: right;
-  background: rgba(27, 27, 47, 0.8);
+  background: rgba(46, 46, 78, 0.8);
   backdrop-filter: blur(10px);
   bottom: 0;
   left: 0;

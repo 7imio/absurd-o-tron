@@ -18,7 +18,6 @@ const NameDisplay: React.FC<NameDisplayProps> = ({ name }) => {
     } catch (err) {
       console.error('Failed to copy: ', err);
       alert('Failed to copy the name. Please try again.');
-
       setCopied(false);
     }
   };
