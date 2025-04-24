@@ -25,3 +25,43 @@ cd absurd-o-tron
 npm install
 npm run dev
 ```
+
+## 📦 Scripts
+
+```
+npm run dev     =>  Start dev server
+npm run build	  =>  Build for production
+npm run lint	  =>  Run ESLint
+npm run format	=>  Format with Prettier`
+```
+
+## 📁 Folder Structure (TL;DR)
+
+```bash
+src/
+├── components/      # React components (Display, Generator, etc.)
+├── utils/           # Name generator logic
+├── App.tsx          # Main UI
+├── index.tsx        # Entry point
+└── index.css        # Custom styling
+
+```
+
+## 🛠 Tech Stack
+
+- ⚛️ React + TypeScript
+- ⚡ Vite
+- 🎨 CSS Modules
+- 💅 Prettier + ESLint
+- 📎 Clipboard API
+<!-- - 🪐 DALL·E assets (custom generated visuals) -->
+
+## 🙌 Credits
+
+Created by @7imio with some friendly help from ChatGPT, the absurd co-pilot, to generate prefixes, middles and suffixes name parts.
+
+“Time is an illusion. Lunchtime doubly so.” — Douglas Adams
+
+## 🪐 License
+
+MIT — Use, remix, and cause cosmic confusion.
