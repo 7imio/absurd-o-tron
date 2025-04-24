@@ -32,9 +32,9 @@ const NameDisplay: React.FC<NameDisplayProps> = ({ name }) => {
             {name}
           </p>
         ) : (
-          <p className="displayed-name">Click the button to generate insanity !</p>
+          <p>Click the button to generate insanity !</p>
         )}
-        {copied && <p className="copied-message">✅ Name copied to clipboard!</p>}
+        {copied && <p className="copy-popup">✅ Name copied to clipboard!</p>}
       </div>
     </div>
   );
