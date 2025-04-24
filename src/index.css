@@ -38,7 +38,7 @@ button:hover {
 }
 
 .app {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -87,4 +87,40 @@ footer p {
   margin: 0;
   padding: 1rem;
   
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 90%;
+    padding: 1rem;
+    min-height: auto;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p, .displayed-name {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.6em 1em;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.75rem;
+    /* padding: 0.5rem 1rem; */
+  }
+
+  footer p {
+    padding: 0.5rem;
+  }
 }
