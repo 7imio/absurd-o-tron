@@ -1,5 +1,5 @@
-import { getRandom } from "./get-random";
-import { middles, prefixes, suffixes, titles } from "./name-lists";
+import { getRandom } from './get-random';
+import { middles, prefixes, suffixes, titles } from './name-lists';
 
 export const generateRandomName = (): string => {
   const addTitle = Math.random() < 0.3; // 30% chance to add a title
@@ -9,7 +9,7 @@ export const generateRandomName = (): string => {
   const randomMiddle = getRandom(middles);
   const randomSuffix = getRandom(suffixes);
 
-  return `${addTitle ? getRandom(titles) : ""} ${randomPrefix}${
-    addMiddle ? randomMiddle : ""
+  return `${addTitle ? getRandom(titles) : ''} ${randomPrefix}${
+    addMiddle ? randomMiddle : ''
   }${randomSuffix}`;
 };
