@@ -12,6 +12,7 @@ Perfect for aliens, startups, galactic pets, or extremely unhinged NPCs.
 - One-click clipboard copy
 - Responsive design for desktop & mobile
 - Space-themed animated toast on copy
+- AI generated picture assets
 - Built with React + TypeScript + Vite
 - Prettier + ESLint pre-configured
 
