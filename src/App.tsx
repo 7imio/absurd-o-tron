@@ -1,10 +1,11 @@
 import { useState } from 'react';
 
-import Footer from './Components/Footer';
+import './index.css';
+
+import Footer from './Components/Footer/Footer';
 import GenerateName from './Components/GenerateName';
 import NameDisplay from './Components/NameDisplay';
-import WhatDoesThisStandsFor from './Components/WhatDoesThisStandsFor';
-import './index.css';
+import WhatDoesThisStandsFor from './Components/WhatDoesThisStandsFor/WhatDoesThisStandsFor';
 
 function App() {
   const [name, setName] = useState<string>('');
