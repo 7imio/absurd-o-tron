@@ -4,9 +4,6 @@ const Footer: React.FC = () => {
       <p>
         Made with ❤️ and a bit of ☕ by{' '}
         <a href="https://www.twitch.tv/seteemio">
-          <span role="img" aria-label="octopus">
-            🐙
-          </span>
           Seteemio
           <span role="img" aria-label="octopus">
             🐙

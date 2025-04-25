@@ -283,4 +283,49 @@ export const suffixes = [
   'grumpt',
 ];
 
-export const titles = ['Dr.', 'Sir', 'Captain', 'Grand Admiral', 'Baron', 'Count'];
+export const TitlesNeutral = [
+  'Dr.',
+  'Captain',
+  'Commander',
+  'Admiral',
+  'General',
+  'Major',
+  'Chief',
+  'Officer',
+  'Ensign',
+  'Agent',
+  'Warden',
+  'Comrade',
+  'Citizen',
+  'Pilot',
+  'Squire',
+  'Engineer',
+  'Ambassador',
+];
+
+export const titlesMen = [
+  'Sir',
+  'Baron',
+  'Count',
+  'Lord',
+  'Duke',
+  'Viscount',
+  'Marquess',
+  'Mister',
+  'Monsieur',
+  'Gentleman',
+];
+
+export const titlesWomen = [
+  'Miss',
+  'Ms.',
+  'Mrs.',
+  'Baroness',
+  'Countess',
+  'Lady',
+  'Dame',
+  'Duchess',
+  'Viscountess',
+  'Marchioness',
+  'Mademoiselle',
+];
