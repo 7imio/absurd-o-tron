@@ -1,4 +1,5 @@
 import { Gender } from '../types/Genders';
+
 import { getRandom } from './get-random';
 import { middles, prefixes, suffixes, titlesMen, TitlesNeutral, titlesWomen } from './name-lists';
 
@@ -16,16 +17,14 @@ export const generateRandomName = (gender?: Gender): string => {
 };
 
 const getRandomTitle = (gender?: Gender) => {
-  if (!gender) {
-    return getRandom(TitlesNeutral); // Neutral title
-  } else {
-    //   const isGendered = Math.random() < 0.5; // 50% chance to get a title neutral or gendered
-    //   if (isGendered) {
-    //   return getRandom(TitlesNeutral); // Neutral title
-    // }
-    // else
-    // {
-    return getRandom(gender === Gender.FEMALE ? titlesWomen : titlesMen);
-    // }
+  switch (gender) {
+    case Gender.FEMALE:
+      return getRandom(titlesWomen);
+    case Gender.MALE:
+      return getRandom(titlesMen);
+    case Gender.NEUTRAL:
+      return getRandom(TitlesNeutral);
+    default:
+      break;
   }
 };

@@ -1,0 +1,39 @@
+.gender-switch {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gender-switch button {
+  font-size: 1.5rem;
+  background-color: #202040;
+  /* border: 2px dashed #888; */
+  border-radius: 15px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gender-switch button:hover {
+  border-color: #ff00ff;
+  box-shadow: 0 0 8px #ff00ff88;
+}
+
+.gender-switch button.active {
+  background-color: #00ffd555;
+  color: #000;
+  border-color: #00ffd5;
+  box-shadow: 0 0 10px #00ffd599;
+  text-shadow: 0px 0px 15px #00ffff;
+}
+
+/* .gender-switch button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+} */
