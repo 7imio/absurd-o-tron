@@ -283,7 +283,7 @@ export const suffixes = [
   'grumpt',
 ];
 
-export const TitlesNeutral = [
+export const titlesNeutral = [
   'Dr.',
   'Captain',
   'Commander',
@@ -328,4 +328,28 @@ export const titlesWomen = [
   'Viscountess',
   'Marchioness',
   'Mademoiselle',
+];
+
+export const titlesNonBinary = [
+  'Mx.',
+  'Captain',
+  'Comrade',
+  'Sovereign',
+  'Overseer',
+  'Chancellor',
+  'Oracle',
+  'Warden',
+  'Sentinel',
+  'Starcaller',
+  'Architect',
+  'Magister',
+  'Maester',
+  'Dreamkeeper',
+  'Void Seer',
+  'Mistform',
+  'Sky Dancer',
+  'Harbinger',
+  'Glitch',
+  'Unicorn',
+  'Spectre',
 ];
